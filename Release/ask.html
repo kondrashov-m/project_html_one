@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оставьте заявку</title>
+    <!-- Добавление фавикона -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/2fc44f44-a6c1-4915-b27f-d8525e92ba28-11808499.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/2fc44f44-a6c1-4915-b27f-d8525e92ba28-11808500.png">
+        <link rel="icon" type="image/png" sizes="120x120" href="assets/img/2fc44f44-a6c1-4915-b27f-d8525e92ba28-11808501.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="assets/img/2fc44f44-a6c1-4915-b27f-d8525e92ba28-11808501.png">
+        <link rel="icon" type="image/png" sizes="180x180" href="assets/img/2fc44f44-a6c1-4915-b27f-d8525e92ba28-11808502.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/2fc44f44-a6c1-4915-b27f-d8525e92ba28-11808502.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family&#x3D;Jost:500&amp;subset&#x3D;all&amp;display&#x3D;swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298, #000000); /* Градиент от синего к черному */
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .form-container h1 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .form-container p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        form input::placeholder, form textarea::placeholder {
+            color: #aaa;
+        }
+
+        form textarea {
+            resize: none;
+        }
+
+        form button {
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+        form button:active {
+            background-color: #004494;
+        }
+
+        .offer-text {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        .offer-text a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .offer-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Оставьте заявку</h1>
+        <p>Наш специалист свяжется с вами, чтобы обсудить все детали и условия выбранного вами тарифа</p>
+        <form action="https://formspree.io/f/xgvvlakq" method="POST">
+            <input type="text" name="name" placeholder="Введите ваше имя" required>
+            <input type="email" name="email" placeholder="Введите ваш email" required>
+            <input type="tel" name="phone" placeholder="Введите ваш телефон" required>
+            <textarea name="message" rows="4" placeholder="Введите ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+        <div class="offer-text">
+            <p>Нажимая кнопку отправить, вы соглашаетесь с <a href="oferta.html">договором оферты</a></p>
+        </div>
+    </div>
+</body>
+</html>
