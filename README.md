@@ -1,4 +1,9 @@
 # project_html_one
-Here is an example of work that I completed for a client with their permission. The source code for this project can be found on GitHub, where prospective employers can view it.
+#RU
+В этом репозитории содержится сайт, созданный мной самостоятельно на основе HTML, CSS и JavaScript. Он был разработан для заказчика в рамках моей работы на фрилансе.
 
-#Проект HTML #1
+Заказчик дал разрешение на публикацию исходного кода данного сайта на GitHub в соответствии с условиями лицензии Apache License 2.0. Все права на сайт защищены. Спасибо
+
+
+![image](https://github.com/user-attachments/assets/611bad96-7c90-479b-b7fc-c0f09a055ad1)
+
