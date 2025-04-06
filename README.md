@@ -12,3 +12,4 @@ The customer has given permission to publish the source code of this site on Git
 # Скриншот (Screenshot)
 ![image](https://github.com/user-attachments/assets/611bad96-7c90-479b-b7fc-c0f09a055ad1)
 
+# Developer: kondrashov-m
